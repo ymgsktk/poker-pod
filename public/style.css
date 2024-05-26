@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* 要素を垂直方向に配置 */
+    height: 100vh;
+    color: white;
+}
+#count {
+    font-size: 30vw; /* カウントの文字サイズを画面幅の10%に設定 */
+    margin-bottom: 300px;
+}
+#pod{
+    font-size: 150%;
+    margin-top: 400px;
+    
+}
+
+.counter{
+    text-align: center;
+    margin-top: 300px; /* カウンターと数字の間の距離を調整 */
+
+    
+
+
+
+}

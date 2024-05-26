@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Counter</title>
+    <link rel="stylesheet" href="style.css"> <!-- 追加 -->
+</head>
+<body>
+    <div id="pod">
+    <h1>ポッド</h1>
+    </div>
+    <h1><span id="count">0</span></h1>
+    <div class="counter">
+        <button class="incrementBtn" data-increment="1">+1</button>
+        <button class="incrementBtn" data-increment="5">+5</button>
+        <button class="incrementBtn" data-increment="10">+10</button>
+        <button class="incrementBtn" data-increment="50">+50</button>
+        <button class="incrementBtn" data-increment="100">+100</button>
+        <button class="incrementBtn" data-increment="500">+500</button>
+        <button id="resetBtn">リセット</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script> <!-- Socket.IOクライアントスクリプトの読み込み -->
+    <script src="main.js"></script> <!-- main.jsの読み込み -->
+</body>
+</html>
